@@ -12,10 +12,15 @@
                 <input type="file" class="filestyle" data-buttonBefore="true" name="file" multiple>
             </div>
 
-            <div class="checkbox">
-                <label>
-                <input type="checkbox" name="unzip" value="unzip"> UnZip
-                </label>
+            <div class="form-group">
+                <label for="compression">Compression</label>
+                <select class="form-control" name="compression">
+                  <option value="none">none</option>
+                  <option value="zip">zip</option>
+                  <option value="gz">gzip</option>
+                  <option value="bz2">bzip2</option>
+                  <option value="tar">tar</option>
+                </select>
             </div>
 
             <div class="form-group">
